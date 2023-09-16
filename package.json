@@ -1,0 +1,16 @@
+{
+  "name": "rotasnode",
+  "version": "1.0.0",
+  "description": "Aula sobre Routes e Middleware junto com BD",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "app.js"
+  },
+  "author": "Hellerson Murilo B Calabianqui de Souza",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  }
+}

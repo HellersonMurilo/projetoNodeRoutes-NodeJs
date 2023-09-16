@@ -1,0 +1,458 @@
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Tilt+Warp&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto:wght@500&family=Tilt+Warp&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap");
+@import url(mobile.css);
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-image: url("../imagens/banner.png");
+  background-size: cover;
+  background-position: center;
+  min-height: 530px;
+  background-repeat: no-repeat;
+}
+
+.logo {
+  position: relative;
+  background-image: url("../imagens/logo-site-removebg-preview.png");
+  width: 120px;
+  height: 120px;
+  background-size: 100% 100%;
+  float: left;
+}
+
+.container {
+  max-width: 1400px;
+  /* define o amanho maxima do container*/
+  padding: 0 2%;
+  margin: 0 auto;
+  max-height: 1200px;
+}
+
+.desktop {
+  /* Chamando o classe e mexendo nos elementos dentro dela, ul*/
+  float: right;
+  /* altera a posição de forma horizontal ou vertical */
+}
+
+.desktop ul {
+  /* chamando a lista inteira */
+  list-style-type: none;
+}
+
+.desktop li {
+  /* chamando cada li dentro do UL */
+  display: inline-flex;
+  /* define como cada elemento dentro da lista irá ficar na posição, nesse caso horizontal */
+  margin: 0 12px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  padding: 30px;
+}
+
+.desktop a {
+  text-decoration: none;
+  opacity: 0.8;
+  color: #ffffff;
+}
+
+.desktop a:hover {
+  /* utilizada para realizar ações após o mouse passar por cima  */
+  color: red;
+  transition: 700ms;
+}
+
+li.btn-orcamento {
+  padding: 3px 8px;
+  border-radius: 20px;
+  border: 3px solid #223240;
+}
+
+.Chamada-nike {
+  padding: 150px 0;
+}
+
+.Chamada-nike h2 {
+  font-size: 35px;
+  font-family: "Tilt Warp", cursive;
+  color: #ffffff;
+  position: relative;
+  margin-left: 120px;
+  bottom: 30px;
+}
+
+.Chamada-nike input[type="email"] {
+  width: 230px;
+  height: 39px;
+  border-radius: 30px;
+  background-color: #ffffff;
+  border: 0;
+  padding-left: 20px;
+  outline: none;
+}
+
+.Chamada-nike span {
+  /* segunda linha do txt principal */
+  display: block;
+  margin: 0 30px;
+}
+
+.Chamada-nike input[type="submit"] {
+  background-color: #ffffff;
+  border-radius: 10px;
+  width: 180px;
+  height: 40px;
+  cursor: pointer;
+  border: 10px;
+}
+
+.form__container {
+  background: #555b60;
+  opacity: 0.7;
+  z-index: 1;
+  position: relative;
+  float: right;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 280px;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 10px;
+  bottom: 150px;
+}
+
+.Chamada-nike input[type="password"] {
+  width: 230px;
+  height: 38px;
+  border-radius: 30px;
+  background-color: #ffffff;
+  border: 0;
+  padding-left: 20px;
+  margin: 30px 0;
+  outline: none;
+  margin-top: 20px;
+}
+
+.form__container img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: nowrap;
+  width: 80px;
+}
+
+.form__container p {
+  margin: 30px 0;
+  color: #ffffff;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.form__container span {
+  display: block;
+  color: #ffffff;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 0 90px;
+}
+
+/* Kit de estilização da Scrollbar */
+::-webkit-scrollbar {
+  width: 12px;
+  border-radius: 40px;
+  background-color: black;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 35px;
+  background-color: black;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 35px;
+  background-color: #f64348;
+}
+
+/* Final estilização da Scrolbar */
+
+.sessao01 {
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.anuncio-produto {
+  padding: 0 15px;
+  width: 50%;
+  color: #555b60;
+  font-family: "Roboto", sans-serif;
+  font-family: "Tilt Warp", cursive;
+  float: left;
+  margin-left: 75px;
+}
+
+.anuncio-produto img {
+  width: 50%;
+  max-width: 500px;
+  float: left;
+  margin: -200px 700px;
+  position: relative;
+}
+
+.clear {
+  clear: both;
+}
+
+.anuncio-produto p {
+  margin: 20px 30px;
+  color: #223240;
+}
+
+.anuncio-produto h3 {
+  margin: 15px;
+}
+
+.sessao02>.container {
+  background-image: url("../imagens/imagem\ depoimento\ michael\ jordan.jpg");
+  background-size: cover;
+  max-width: 720px;
+  min-height: 350px;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+.feedback {
+  position: absolute;
+  left: 50%;
+  width: 90%;
+  background: rgba(0, 0, 0, 0.7);
+  bottom: -67px;
+  max-width: 500px;
+  padding: 35px;
+  box-shadow: 0 9px 20px 0 rgb(17 17 17 / 90%);
+  border: 5px;
+  border-radius: 20px;
+}
+
+.feedback p {
+  font-size: 20px;
+  color: #bcbaba;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Tilt Warp", cursive;
+}
+
+.clear {
+  clear: both;
+}
+
+.imagens {
+  width: 100%;
+  padding: 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Estilizando o carrosel */
+.imagem {
+  width: 30%;
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+
+  background-color: #878484;
+  border-radius: 10px;
+
+  font-family: "Roboto", sans-serif;
+}
+
+.imagem p {
+  padding: 10px;
+  color: #ffffff;
+  box-shadow: #223240;
+}
+
+.imagem h2 {
+  text-align: 50px;
+  color: #ffffff;
+}
+
+.imagem img {
+  width: 70%;
+}
+
+.promocao {
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+  font-family: "Roboto", sans-serif;
+}
+
+.sessao03 {
+  margin-top: 130px;
+  background-color: rgb(37, 36, 36);
+}
+
+.titulo {
+  color: #ffffff;
+  text-align: center;
+}
+
+.comprar-button {
+  padding: 10px 30px;
+  background: transparent;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.comprar-button:hover {
+  /* utilizada para realizar ações após o mouse passar por cima  */
+  transition: 400ms;
+  color: red;
+}
+
+.batata {
+  text-align: center;
+}
+
+.preco-tenis {
+  text-align: center;
+  padding: 15px;
+}
+
+.video {
+  padding: 30px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Estilizando o carrosel */
+
+footer {
+  width: 100%;
+  padding: 40px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+
+  background-color:#000000;
+}
+
+.footer-container {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-item h5 {
+  color: white;
+}
+
+.footer-item a {
+  color: white;
+  font-style: none;
+  text-decoration: none;
+}
+
+.line {
+  width: 100%;
+  height: 2px;
+
+  background-color: #ffffff;
+  border-radius: 2px;
+}
+
+.footer-terms {
+  width: 100%;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;      
+  justify-content: center;
+
+  gap: 20px;
+}
+
+.footer-terms-header {
+  color: white;
+}
+
+.terms {
+  display: flex;
+  align-items: center;      
+  justify-content: center;
+
+  gap: 20px;
+}
+
+.terms a {
+  color: white;
+  font-style: none;
+  text-decoration: none;
+}
+
+.imgprincipal a{
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.imgprincipal a img{
+  width: 90%;
+}
+
+.txtprincipal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-family: "Tilt Warp", cursive;
+}
+
+.btn-produtos{
+  display: flex;
+  justify-content: center;
+  background: transparent;
+  border-radius: 20px;
+  padding: 10px 30px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.btn-produtos a{
+  text-decoration: none;
+  outline: none;
+
+}
+
+/* ABAIXO VERSÃO RESPONSIVA */
+
+

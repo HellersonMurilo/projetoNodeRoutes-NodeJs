@@ -1,0 +1,45 @@
+
+  .mobile{
+    display: none;
+  }
+
+  .mobile ul{
+    position: absolute;
+    width: 100%;
+    background-color: #555b60;
+    left: 0;
+    text-align: center;
+    z-index: 2;
+  }
+
+
+  nav.mobile li.btn-orcamento{
+    padding: 4px 10px;
+    display: inline-block;
+  }
+
+  .mobile li{
+    padding: 8px 0;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 15px;
+  }
+
+  .mobile a{
+    text-decoration: none;
+    color: #ffff;
+  }
+  
+  
+  
+  @media screen and (max-width: 1024px) {
+    .desktop{
+      display: none;
+    }
+  
+    .mobile{
+      display: block;
+    }
+  
+  }
+  

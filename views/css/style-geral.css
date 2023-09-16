@@ -1,0 +1,322 @@
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Tilt+Warp&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto:wght@500&family=Tilt+Warp&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&family=Reggae+One&family=Roboto:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+header{
+    background-image: url(../imagens/img-produtos-geral/wallpapper.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 900px;
+    min-width: 100%;
+    background-repeat: no-repeat;
+}
+
+.menu-topo{
+  text-align: end;
+}
+
+.logo {
+    position: relative;
+    background-image: url("../imagens/logo-site-removebg-preview.png");
+    width: 120px;
+    height: 120px;
+    background-size: 100% 100%;
+    float: left;
+    bottom: 82px;
+  }
+
+.container {
+  max-width: 1400px;
+  padding: 0 2%;
+  margin: 0 auto;
+  max-height: 1200px;
+}
+
+.aparecer-devagar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    padding-top: 20px;
+    font-family: "Tilt Warp", cursive;
+}
+
+.menu-geral{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 60px;
+    gap: 50px;   
+    margin-top: 50px;
+}
+
+.box{
+    justify-content: center;
+    align-items: center;
+    background-color: #100f0f93;
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    color: #ffffff;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Reggae One', cursive;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden; /* Para esconder a imagem que não está visível */
+    animation: slide-in 1s ease-in-out forwards; /* Definindo a animação */
+}
+
+.img1{
+    width: 100%;
+    position: relative;
+    text-align: center;
+    animation: slide-in 1s ease-in-out forwards; /* Definindo a animação */
+
+}
+@keyframes slide-in {
+    from {
+      transform: translateX(-100%); /* A imagem começa fora da tela */
+    }
+    to {
+      transform: translateX(0); /* A imagem termina na posição original */
+    }
+  }
+
+.img2{
+    width: 100%;
+    position: relative;
+    text-align: center;
+    animation: slide-in 1s ease-in-out forwards; /* Definindo a animação */
+}
+@keyframes slide-in {
+    from {
+      transform: translateX(-100%); /* A imagem começa fora da tela */
+    }
+    to {
+      transform: translateX(0); /* A imagem termina na posição original */
+    }
+  }
+
+.img3{
+    width: 100%;
+    position: relative;
+    text-align: center;
+    animation: slide-in 1s ease-in-out forwards; /* Definindo a animação */
+}
+@keyframes slide-in {
+    from {
+      transform: translateX(-100%); /* A imagem começa fora da tela */
+    }
+    to {
+      transform: translateX(0); /* A imagem termina na posição original */
+    }
+  }
+
+.menu-final{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    gap: 50px;
+    position: relative;
+    top: 50px;
+}
+
+.box1{
+    justify-content: center;
+    align-items: center;
+    background-color: #100f0f93;
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    color: #ffffff;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Reggae One', cursive;
+    font-family: 'Roboto', sans-serif;  
+    animation: slide-in 1s ease-in-out forwards; /* Definindo a animação */
+}
+
+.imagem1{
+    width: 100%;
+    position: relative;
+    text-align: center;     
+    animation: slide-in 1s ease-in-out forwards; /* Definindo a animação */
+}
+@keyframes slide-in {
+    from {
+      transform: translateX(-100%); /* A imagem começa fora da tela */
+    }
+    to {
+      transform: translateX(0); /* A imagem termina na posição original */
+    }
+  }
+
+.imagem2{
+    width: 100%;
+    position: relative;
+    text-align: center;
+    animation: slide-in 1s ease-in-out forwards; /* Definindo a animação */
+}
+@keyframes slide-in {
+    from {
+      transform: translateX(-100%); /* A imagem começa fora da tela */
+    }
+    to {
+      transform: translateX(0);/* A imagem termina na posição original */
+    }
+  }
+
+.imagem3{
+    width: 100%;
+    position: relative;
+    text-align: center;
+    animation: slide-in 1s ease-in-out forwards; /* Definindo a animação */
+}
+@keyframes slide-in {
+    from {
+      transform: translateX(-100%); /* A imagem começa fora da tela */
+    }
+    to {
+      transform: translateX(0); /* A imagem termina na posição original */
+    }
+  }
+
+
+  footer {
+    width: 100%;
+    padding: 40px;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+  
+    background-color:#000000;
+  }
+  
+  .footer-container {
+    width: 100%;
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .footer-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .footer-item h5 {
+    color: white;
+  }
+  
+  .footer-item a {
+    color: white;
+    font-style: none;
+    text-decoration: none;
+  }
+  
+  .line {
+    width: 100%;
+    height: 2px;
+  
+    background-color: #ffffff;
+    border-radius: 2px;
+  }
+  
+  .footer-terms {
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;      
+    justify-content: center;
+  
+    gap: 20px;
+  }
+  
+  .footer-terms-header {
+    color: white;
+  }
+  
+  .terms {
+    display: flex;
+    align-items: center;      
+    justify-content: center;
+  
+    gap: 20px;
+  }
+  
+  .terms a {
+    color: white;
+    font-style: none;
+    text-decoration: none;
+  }
+  
+  .imgprincipal a{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+  }
+  
+  .imgprincipal a img{
+    width: 90%;
+  }
+  
+  .txtprincipal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-family: "Tilt Warp", cursive;
+  }
+  
+  .btn-produtos{
+    display: flex;
+    justify-content: center;
+    background: transparent;
+    border-radius: 20px;
+    padding: 10px 30px;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  
+  .btn-produtos a{
+    text-decoration: none;
+    outline: none;
+  
+  }
+
+  .seta-voltar img{
+    width: 3%;
+  }
+
+  ::-webkit-scrollbar {
+    width: 12px;
+    border-radius: 40px;
+    background-color: black;
+  }
+  
+  ::-webkit-scrollbar-track {
+    border-radius: 35px;
+    background-color: black;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    border-radius: 35px;
+    background-color: #f64348;
+  }
